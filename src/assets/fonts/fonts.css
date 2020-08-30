@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'roboto';
+  src: url('./roboto/roboto.eot');
+  src: url('./roboto/roboto.eot?#iefix') format('embedded-opentype'),
+  url('./roboto/roboto.woff') format('woff'),
+  url('./roboto/roboto.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nothing-you-could-do';
+  src: url('./nothing-you-could-do/nothing-you-could-do.eot');
+  src: url('./nothing-you-could-do/nothing-you-could-do.eot?#iefix') format('embedded-opentype'),
+  url('./nothing-you-could-do/nothing-you-could-do.woff') format('woff'),
+  url('./nothing-you-could-do/nothing-you-could-do.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

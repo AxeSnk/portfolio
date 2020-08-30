@@ -1,0 +1,29 @@
+.Home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('../assets/img/home.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.name {
+  font-family: 'roboto';
+  font-size: 5vw;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: wheat;
+}
+.slogan {
+  font-family: 'nothing-you-could-do';
+  font-size: 2vw;
+}
+.tr-appear {
+  opacity: 0;
+}
+.tr-appear-done {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
