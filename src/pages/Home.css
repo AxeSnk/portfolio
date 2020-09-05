@@ -8,17 +8,18 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  user-select: none;
 }
 .name {
   font-family: 'roboto';
-  font-size: 5vw;
+  font-size: 4rem;
   font-weight: bold;
   text-transform: uppercase;
   color: wheat;
 }
 .slogan {
   font-family: 'nothing-you-could-do';
-  font-size: 2vw;
+  font-size: 2rem;
 }
 .tr-appear {
   opacity: 0;

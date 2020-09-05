@@ -1,6 +1,7 @@
 import React from 'react';
 import { CSSTransition } from 'react-transition-group';
 import './Home.css';
+import './media.css';
 
 const Home = () => {
   return (

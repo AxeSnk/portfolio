@@ -1,0 +1,26 @@
+@media (max-width: 1024px) {
+  .name {
+    font-size: 3rem;
+  }
+  .slogan {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .name {
+    font-size: 2rem;
+  }
+  .slogan {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .name {
+    font-size: 1.5rem;
+  }
+  .slogan {
+    font-size: .7rem;
+  }
+}
