@@ -1,13 +1,13 @@
 import React from 'react';
 import { CSSTransition } from 'react-transition-group';
-import './Home.css';
-import './media.css';
+import './Overlay.css';
+import './Overlay-media.css';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 
-const Home = () => {
+const Overlay = () => {
   return (
     <CSSTransition appear in timeout={500} classNames="tr">
-      <div className="Home">
+      <div className="Overlay">
         <CSSTransition appear in timeout={1500} classNames="tr">
           <div className="name">Аксенов Александр</div>
         </CSSTransition>
@@ -22,4 +22,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Overlay;
