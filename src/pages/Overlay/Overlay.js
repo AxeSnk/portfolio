@@ -15,7 +15,7 @@ const Overlay = (props) => {
           <div className="slogan">Amazing Web For You</div>
         </CSSTransition>
         <CSSTransition appear in timeout={4500} classNames="ta">
-          <KeyboardArrowDownIcon onClick={props.onClick} fontSize='large' style={{padding: '20px'}} />
+          <KeyboardArrowDownIcon onClick={props.onClick} htmlColor="#fff" fontSize='large' style={{padding: '20px'}} />
         </CSSTransition>
       </div>
     </CSSTransition>
