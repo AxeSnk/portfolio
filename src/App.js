@@ -22,10 +22,14 @@ const App = () => {
           licenseKey={'YOUR_KEY_HERE'}
           scrollingSpeed={1000}
           render={({ state, fullpageApi }) => {
+            const onClickArrow = () => {
+              fullpageApi.moveSectionDown()
+            }
+
             return (
               <ReactFullpage.Wrapper>
                 <div className="section">
-                  <Overlay />
+                  <Overlay onClick={onClickArrow} />
                 </div>
                 <div className="section">
                   <Home />
