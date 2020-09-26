@@ -1,11 +1,11 @@
 import React, { useEffect } from 'react';
-import Loader from './components/Loader';
+import Loader from './components/Loader/Loader';
 import Overlay from './pages/Overlay/Overlay';
 import Home from './pages/Home/Home';
 import ReactFullpage from '@fullpage/react-fullpage';
 
 const App = () => {
-  const [loading, setLoading] = React.useState(true);
+  const [loading, setLoading] = React.useState(false);
 
   useEffect(() => {
     setTimeout(() => {

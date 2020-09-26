@@ -1,0 +1,12 @@
+.sample__title {
+  text-align: center;
+}
+
+.sample__image {
+  border-radius: 4px;
+  transition: 1s
+}
+
+.sample__image:hover {
+  transform: scale(0.9);
+}
